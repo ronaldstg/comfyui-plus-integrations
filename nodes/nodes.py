@@ -72,15 +72,15 @@ class ImageToS3:
                 }),
                 "image_format": (["png", "jpeg", "webp"],),
                 "aws_access_key": ("STRING", {
-                    "default": AWS_ACCESS_KEY,
+                    "default": "",
                     "multiline": False
                 }),
                 "aws_secret_key": ("STRING", {
-                    "default": AWS_SECRET_KEY,
+                    "default": "",
                     "multiline": False
                 }),
                 "aws_region": ("STRING", {
-                    "default": AWS_REGION,
+                    "default": "",
                     "multiline": False
                 }),
             },
